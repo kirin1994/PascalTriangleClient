@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { MyNavbar } from './MyNavbar';
 
 class App extends Component {
   constructor(props) {
@@ -32,8 +32,8 @@ class App extends Component {
   }
 
   render() {
-    var { isLoaded, items } = this.state
 
+    var { isLoaded, items } = this.state
     if (!isLoaded) {
       return <div>Loading...</div>
     }
