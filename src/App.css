@@ -1,43 +1,56 @@
 .triangle {
   text-align: center;
+  overflow-y: scroll;
   margin-top: 30px;
 }
 
-.triangle-component {
-  border: 3px;
-  font-size: 25px;
-  height: 50px;
-  width: 50px;
+.triangle-row {
+  height: 25px;
+}
+
+.triangle-component-core {
+  font-size: 15px;
+  height: 25px;
+  width: 25px;
   display: inline-block;
+}
+
+.triangle-component-color0{
   background-color: red;
 }
 
-.triangle-component0{
-  border: 3px;
-  font-size: 25px;
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-  background-color: red;
-}
-
-.triangle-component1{
-  border: 3px;
-  font-size: 25px;
-  height: 50px;
-  width: 50px;
-  display: inline-block;
+.triangle-component-color1{
   background-color: yellow;
 }
 
-.triangle-component2{
-  border: 3px;
-  font-size: 25px;
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-  background-color: green;
+.triangle-component-color2{
+  background-color: turquoise;
 }
 
+.triangle-component-color3{
+  background-color: purple;
+}
 
+.triangle-component-color4{
+  background-color: pink;
+}
 
+.triangle-component-color5{
+  background-color: orange;
+}
+
+.triangle-component-color6{
+  background-color: aqua;
+}
+
+.triangle-component-color7{
+  background-color: ghostwhite;
+}
+
+.triangle-component-color8{
+  background-color: salmon;
+}
+
+.triangle-component-color9{
+  background-color: skyblue;
+}

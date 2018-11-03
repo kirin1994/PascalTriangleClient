@@ -34,10 +34,6 @@ class App extends Component {
     fetch('https://localhost:44307/api/pascal/calculate?NumberOfIterations='+ this.state.triangleHeight+'&Modulo=' + this.state.moduloValue, {
       method: "GET",
       mode: "cors",
-      // headers:
-      // {
-      //   "Access-Control-Allow-Origin": "*"
-      // },
     })
       .then(function(res)
       {
@@ -104,7 +100,7 @@ class App extends Component {
            </form>
            </div>
            {console.log(items)}
-          {items.TriangleRows.map(row => <div className="triangle-row"> {row.ValuesOfCalculation.map(value => <a className={"triangle-component" + value} > {value} </a>)}</div>)}
+          {items.TriangleRows.map(row => <div className="triangle-row"> {row.ValuesOfCalculation.map(value => <a className={"triangle-component-core triangle-component-color" + value} > {value} </a>)}</div>)}
          
         </div>
       );
